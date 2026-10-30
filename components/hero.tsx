@@ -38,17 +38,16 @@ export default function Hero() {
           </div>
         </div>
         <div className="hero-visual">
-          <div className="portrait-orbit orbit-one" />
-          <div className="portrait-orbit orbit-two" />
-
-          <div className="portrait-placeholder">
+          {/* <div className="portrait-orbit orbit-one" />
+          <div className="portrait-orbit orbit-two" /> */}
+          <div className="relative w-full max-w-[300px] mx-auto aspect-[3/4] overflow-hidden rounded-t-[250px] rounded-b-[250px] ">
             <Image
-              src="/images/image.png"
-              alt="Dr. Gourav Goyal - Neurologist"
+              src="/images/doctor2.jpeg"
+              alt="Dr. Gourav Goyal"
               fill
               priority
-              sizes="(max-width: 768px) 90vw, 420px"
-              className="object-contain object-bottom"
+              className="object-cover object-top"
+              sizes="(max-width: 768px) 85vw, 300px"
             />
           </div>
           <div className="doctor-caption">
