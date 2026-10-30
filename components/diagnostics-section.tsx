@@ -1,0 +1,3 @@
+import { ClipboardList } from 'lucide-react';
+const tests=['EEG','Video EEG','NCV','EMG','RNS','Evoked potentials'];
+export default function DiagnosticsSection(){return <section className="section diagnostics-section"><div className="container"><div className="section-heading"><span className="eyebrow">NEUROLOGICAL TESTING</span><h2>Diagnostic services</h2><p>Ask the clinic about test availability, preparation and scheduling.</p></div><div className="diagnostic-grid">{tests.map(test=><div className="diagnostic-card" key={test}><span><ClipboardList size={21}/></span><strong>{test}</strong></div>)}</div></div></section>}
