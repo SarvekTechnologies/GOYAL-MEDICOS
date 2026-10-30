@@ -14,7 +14,7 @@ export default function Hero() {
           <span className="eyebrow">NEUROLOGY & STROKE CARE · JAIPUR</span>
           <h1>
             Expert care for
-            <br />
+            <br className="hero-title-break" />
             <span>your brain & nerves.</span>
           </h1>
           <h2>Dr. Gourav Goyal</h2>
@@ -38,16 +38,14 @@ export default function Hero() {
           </div>
         </div>
         <div className="hero-visual">
-          {/* <div className="portrait-orbit orbit-one" />
-          <div className="portrait-orbit orbit-two" /> */}
-          <div className="relative w-full max-w-[300px] mx-auto aspect-[3/4] overflow-hidden rounded-t-[250px] rounded-b-[250px] ">
+          <div className="hero-portrait">
             <Image
               src="/images/doctor2.jpeg"
               alt="Dr. Gourav Goyal"
               fill
               priority
               className="object-cover object-top"
-              sizes="(max-width: 768px) 85vw, 300px"
+              sizes="(max-width: 760px) 75vw, (max-width: 1050px) 38vw, 300px"
             />
           </div>
           <div className="doctor-caption">
