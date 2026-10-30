@@ -43,7 +43,7 @@ export default function Hero() {
 
           <div className="portrait-placeholder">
             <Image
-              src="/images/dr-gourav-goyal.png"
+              src="/images/image.png"
               alt="Dr. Gourav Goyal - Neurologist"
               fill
               priority
